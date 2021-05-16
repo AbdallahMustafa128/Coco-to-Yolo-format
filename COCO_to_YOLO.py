@@ -20,7 +20,7 @@ if not os.path.exists(DIR_OUTPUT_PREFIX):
 
 # json file
 with open(ADNOTATION_PREFIX + "\\tomatOD_test.json") as f:
-  data_adnotation = json.load(f)
+    data_adnotation = json.load(f)
 print(json.dumps(data_adnotation, indent = 4, sort_keys=True))
 
 
